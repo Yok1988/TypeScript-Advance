@@ -475,3 +475,13 @@ console.log(goodStatus)
 console.log("     ")
 console.log("     ")
 console.log("______________ 🔰 Tuple Label ___________") 
+const good:[code:number,status:string] =[200,"OK"]
+console.log(good)
+console.log(good[0])
+console.log(good[1])
+const notFound:[code:number,status:string] =[404,"ไม่พบข้อมูล"]
+const badRequest:[code:number,status:string] =[404,"คำขอไม่ถูกต้อง"]
+const serverErr:[code:number,status:string] =[500,"Internal Server Error"]
+console.log(badRequest)
+console.log(notFound)
+console.log(serverErr)
