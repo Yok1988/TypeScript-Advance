@@ -485,3 +485,17 @@ const serverErr:[code:number,status:string] =[500,"Internal Server Error"]
 console.log(badRequest)
 console.log(notFound)
 console.log(serverErr)
+
+
+console.log("     ")
+console.log("     ")
+console.log("______________ 🔰 Tuple Type ___________") 
+type HttpStatusCode=[number,string] //นิยามมาแทนรูปแบบเดิม
+const goodStatus1:HttpStatusCode= [200,"OK"]
+const notFound1:HttpStatusCode=[404,"ไม่พบข้อมูล"]
+const badRequest1:HttpStatusCode =[404,"คำขอไม่ถูกต้อง"]
+const serverErr1:HttpStatusCode =[500,"Internal Server Error"]
+console.log(goodStatus1)
+console.log(notFound1)
+console.log(badRequest1)
+console.log(serverErr1)
